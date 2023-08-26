@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #000000 0%, #100c42a8 74%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+input {
+    background-color: #ad9b15;
+    border-radius: 10px;
+    border: 2px solid rgb(40, 38, 38);
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 400px;
+}
+
+input::placeholder {
+    color: #000000;
+    font-size: 20px;
+    padding: 1rem;
+    
+
+}
+
+input:focus {
+    outline: none;
+    text-align: center;
+}
+
+.card {
+    background-color: #ad5829;
+    background-image: linear-gradient(315deg, #ab500b 0%, #8b4d0c 75%);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 3rem;
+    max-width: 900px;
+    margin-bottom: 2rem;
+}
+
+.avatar {
+    border: 10px solid #2b190e;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.user-info {
+    color: #eeeeeeaf;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.user-info h2 {
+    margin-top: 0;
+    padding: 1rem;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1rem;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo {
+    background-color: #151539;
+    border-radius: 5px;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
